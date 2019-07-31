@@ -1,6 +1,6 @@
-# Comunica Tutorial Slides - Basics
+# SOCOM Tutorial Slides - Comunica
 
-[![Build Status](https://travis-ci.org/comunica/Tutorial-ESWC2019-Comunica-Basic-Slides.svg?branch=master)](https://travis-ci.org/comunica/Tutorial-ESWC2019-Comunica-Basic-Slides)
+[![Build Status](https://travis-ci.org/comunica/Tutorial-ISWC2019-Slides-Comunica.svg?branch=master)](https://travis-ci.org/comunica/Tutorial-ISWC2019-Slides-Comunica)
 
 These slides are created using the [shower](https://github.com/shower/shower) framework.
 
