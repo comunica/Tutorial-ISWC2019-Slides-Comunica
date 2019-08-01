@@ -32,8 +32,8 @@
       </div>
     </header>
 
-    <section id="title" class="slide title">
-      <h2>SOCOM Tutorial Slides - Comunica</h2>
+    <section id="title" class="slide title" inlist="" rel="schema:hasPart" resource="#title">
+      <h2 property="schema:name">SOCOM Tutorial Slides - Comunica</h2>
       <ul class="author inline">
           <li class="current">Julian Rojas</li>
           <li class="current"><a href="https://www.rubensworks.net/">Ruben Taelman</a></li>
@@ -42,8 +42,8 @@
       <h3>Tutorial Website: <a href="http://bit.ly/iswcquery">http://bit.ly/iswcquery</a></h3>
     </section>
 
-    <section id="schedule" class="slide">
-      <h2 class="big">Comunica Tutorial</h2>
+    <section id="schedule" class="slide" inlist="" rel="schema:hasPart" resource="#schedule">
+      <h2 property="schema:name" class="big">Comunica Tutorial</h2>
       <ul>
         <li><strong>First half: Introduction to Comunica</strong>
           <ul>
@@ -61,8 +61,8 @@
       </ul>
     </section>
 
-    <section id="intro" class="slide">
-      <h2 class="big">Linked Data on the Web is complex</h2>
+    <section id="intro" class="slide" inlist="" rel="schema:hasPart" resource="#intro">
+      <h2 property="schema:name" class="big">Linked Data on the Web is complex</h2>
       <ul style="max-width:55%; float: left">
         <li>Heterogeneous interfaces</li>
         <li>Multiple query languages and algorithms</li>
@@ -72,8 +72,8 @@
       <img src="img/square-peg.jpg" style="max-width:100%; float: right"/>
     </section>
     
-    <section id="start-summary" class="slide">
-      <h2 class="big">Comunica is many things</h2>
+    <section id="start-summary" class="slide" inlist="" rel="schema:hasPart" resource="#start-summary">
+      <h2 property="schema:name" class="big">Comunica is many things</h2>
       <div style="float: left">
         <ul>
           <li>SPARQL query engine</li>
@@ -103,8 +103,8 @@
       </ul>
     </section>
 
-    <section id="why" class="slide">
-      <h2 class="big">Motivation</h2>
+    <section id="why" class="slide" inlist="" rel="schema:hasPart" resource="#why">
+      <h2 property="schema:name" class="big">Motivation</h2>
       <ul>
         <li>Easily support extensions and variants of existing systems</li>
         <li>Modular system</li>
@@ -113,8 +113,8 @@
       </ul>
     </section>
 
-    <section id="tpf" class="slide">
-      <h2 class="big">Triple Pattern Fragments as an alternative RDF interface</h2>
+    <section id="tpf" class="slide" inlist="" rel="schema:hasPart" resource="#tpf">
+      <h2 property="schema:name" class="big">Triple Pattern Fragments as an alternative RDF interface</h2>
       <ul>
         <li>2014: <a href="http://linkeddatafragments.org/publications/iswc2014.pdf"><em>Querying Datasets on the Web with High Availability</em> (Verborgh et al.)</a></li>
         <li>Alternative interface for exposing linked data</li>
@@ -123,8 +123,8 @@
       <img src="img/ldf.png" style="max-width:100%"/>
     </section>
 
-    <section id="tpf2" class="slide">
-      <h2 class="big">TPF has many extensions</h2>
+    <section id="tpf2" class="slide" inlist="" rel="schema:hasPart" resource="#tpf2">
+      <h2 property="schema:name" class="big">TPF has many extensions</h2>
       <ul>
         <li>Send allowed bindings to server
           <p class="indent"><a class="reference" href="http://olafhartig.de/brTPF-ODBASE2016/">Bindings-Restricted Triple Pattern Fragments (Hartig et al.)</a></p>
@@ -139,8 +139,8 @@
       <p class="next indent"><strong>Different branches/clients to support these features</strong></p>
     </section>
 
-    <section id="modular" class="slide">
-      <h2 class="big">Modular system</h2>
+    <section id="modular" class="slide" inlist="" rel="schema:hasPart" resource="#modular">
+      <h2 property="schema:name" class="big">Modular system</h2>
       <ul>
         <li>Quickly switch between different setups</li>
         <li>Change specific parts in the setup and keep everything else the same</li>
@@ -149,8 +149,8 @@
       </ul>
     </section>
 
-    <section id="reusable" class="slide">
-      <h2 class="big">Experiment data </h2>
+    <section id="reusable" class="slide" inlist="" rel="schema:hasPart" resource="#reusable">
+      <h2 property="schema:name" class="big">Experiment data </h2>
       <ul>
         <li>Problem: repeat experiments, reproduce results, reuse new systems</li>
         <li>Wanted an easy way to share our setup and support reproducibility</li>
@@ -166,8 +166,8 @@
       </ul>
     </section>
 
-    <section id="actor-model" class="slide">
-      <h2>Modularity using the <em>actor</em> model</h2>
+    <section id="actor-model" class="slide" inlist="" rel="schema:hasPart" resource="#actor-model">
+      <h2 property="schema:name">Modularity using the <em>actor</em> model</h2>
       <p class="indent">Logic is separated into different <em>actors</em></p>
       <p class="indent">Each actor <em>independently</em> performs a <em>specific task</em>.</p>
       <ul class="indent" style="font-style: italic">
@@ -178,8 +178,8 @@
       </ul>
     </section>
 
-    <section id="actor-mediator-bus" class="slide">
-      <h2>Actors can be <em>combined</em> for solving more <em>complex tasks</em></h2>
+    <section id="actor-mediator-bus" class="slide" inlist="" rel="schema:hasPart" resource="#actor-mediator-bus">
+      <h2 property="schema:name">Actors can be <em>combined</em> for solving more <em>complex tasks</em></h2>
       <p class="indent">Actors are grouped in task-specific <em>buses</em>.</p>
       <p class="indent"><em>Mediators</em> are responsible for selecting an actor to solve a certain task.</p>
       <p class="next center">
@@ -188,14 +188,14 @@
     </section>
 
     <section id="actor-mediator-bus-example" class="slide">
-      <h2>Example: Parse as fast as possible</h2>
+      <h2 property="schema:name">Example: Parse as fast as possible</h2>
       <p class="center">
         <img src="img/run-test-phases.svg" style="max-width:100%">
       </p>
     </section>
 
-    <section id="modules" class="slide">
-      <h2>Modules are wired together through semantic configuration files</h2>
+    <section id="modules" class="slide" inlist="" rel="schema:hasPart" resource="#modules">
+      <h2 property="schema:name">Modules are wired together through semantic configuration files</h2>
       <p class="indent"><a href="https://componentsjs.readthedocs.io/en/latest/">Components.js</a>: a semantic dependency injection framework.</p>
       <p class="indent">Configuration files declare and parameterize actors, mediators and buses.</p>
       <p class="indent">Links all the building blocks together, without having to do this in the code!</p>
@@ -210,8 +210,8 @@
       </ul>
     </section>
 
-    <section id="implementation-details" class="slide">
-      <h2>Implementation details</h2>
+    <section id="implementation-details" class="slide" inlist="" rel="schema:hasPart" resource="#implementation-details">
+      <h2 property="schema:name">Implementation details</h2>
       <ul>
         <li><a href="https://github.com/comunica/comunica">Open-source under MIT license</a></li>
         <li>Implemented in TypeScript/JavaScript</li>
@@ -221,8 +221,8 @@
       </ul>
     </section>
 
-    <section id="features" class="slide">
-      <h2>Current features</h2>
+    <section id="features" class="slide" inlist="" rel="schema:hasPart" resource="#features">
+      <h2 property="schema:name">Current features</h2>
       <ul>
         <li>
           Nearly full SPARQL 1.1 support
@@ -248,8 +248,8 @@
       </ul>
     </section>
 
-    <section id="command-line-interface" class="slide">
-      <h2>Query from the Command Line</h2>
+    <section id="command-line-interface" class="slide" inlist="" rel="schema:hasPart" resource="#command-line-interface">
+      <h2 property="schema:name">Query from the Command Line</h2>
       <p class="indent">After installing the <a href="https://www.npmjs.com/package/@comunica/actor-init-sparql"><code>@comunica/actor-init-sparql</code></a> package</p>
       <p class="indent">Outputs the resulting bindings</p>
       <pre class="indent">
@@ -268,8 +268,8 @@ comunica-sparql http://fragments.dbpedia.org/2015-10/en \
       </pre>
     </section>
 
-    <section id="sparql-interface" class="slide">
-      <h2>Set up a SPARQL endpoint</h2>
+    <section id="sparql-interface" class="slide" inlist="" rel="schema:hasPart" resource="#sparql-interface">
+      <h2 property="schema:name">Set up a SPARQL endpoint</h2>
       <p class="indent">After installing the <a href="https://www.npmjs.com/package/@comunica/actor-init-sparql"><code>@comunica/actor-init-sparql</code></a> package</p>
       <p class="indent">Provides a functioning SPARQL endpoint</p>
       <pre class="indent">
@@ -282,15 +282,15 @@ comunica-sparql-http \
       </pre>
     </section>
 
-    <section id="browser-interface" class="slide">
-      <h2>Query through your browser</h2>
+    <section id="browser-interface" class="slide" inlist="" rel="schema:hasPart" resource="#browser-interface">
+      <h2 property="schema:name">Query through your browser</h2>
       <p class="indent">Running Comunica engine in the browser</p>
       <h3 class="indent"><a href="http://query.linkeddatafragments.org/">http://query.linkeddatafragments.org/</a></h3>
       <p class="indent">Host custom engines yourself: <a href="https://github.com/comunica/jQuery-Widget.js/">https://github.com/comunica/jQuery-Widget.js/</a></p>
     </section>
 
     <section id="querying-data" class="slide">
-      <h2>Hands-on: querying data using Comunica</h2>
+      <h2 property="schema:name">Hands-on: querying data using Comunica</h2>
       <p class="indent"><strong>Goal:</strong> Cover the different ways Comunica can be used to query data</p>
       <p class="indent">
         This tutorial will introduce both command-line tools and code-based querying
@@ -300,8 +300,8 @@ comunica-sparql-http \
       </p>
     </section>
 
-    <section id="querying-data-requirements" class="slide">
-      <h2>Hands-on: requirements</h2>
+    <section id="querying-data-requirements" class="slide" inlist="" rel="schema:hasPart" resource="#querying-data-requirements">
+      <h2 property="schema:name">Hands-on: requirements</h2>
       <ul>
         <li><a href="https://git-scm.com/">git</a>: <span class="muted">cloning the starting code</span></li>
         <li><a href="https://nodejs.org/en/">Node.js</a> <em>(version 8.0 or higher)</em>: <span class="muted">running the code</span></li>
@@ -309,8 +309,8 @@ comunica-sparql-http \
       </ul>
     </section>
 
-    <section id="querying-data-steps" class="slide">
-      <h2>Hands-on: five steps</h2>
+    <section id="querying-data-steps" class="slide" inlist="" rel="schema:hasPart" resource="#querying-data-steps">
+      <h2 property="schema:name">Hands-on: five steps</h2>
       <ol class="indent">
         <li>Querying from the command line: <span class="muted">Query existing sources.</span></li>
         <li>Querying from different sources: <span class="muted">Create a local source.</span></li>
@@ -320,8 +320,8 @@ comunica-sparql-http \
       </ol>
     </section>
 
-    <section id="querying-data-links" class="slide">
-      <h2>Hands-on: getting started</h2>
+    <section id="querying-data-links" class="slide" inlist="" rel="schema:hasPart" resource="#querying-data-links">
+      <h2 property="schema:name">Hands-on: getting started</h2>
       <p class="indent">Each step is explained in detail on the GitHub wiki:</p>
       <p class="center">
         <strong><a href="https://github.com/comunica/Tutorial-Comunica-Querying-Data">https://github.com/comunica/Tutorial-Comunica-Querying-Data</a></strong>
