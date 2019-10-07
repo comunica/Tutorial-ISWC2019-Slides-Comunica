@@ -285,7 +285,10 @@ comunica-sparql-http \
     <section id="browser-interface" class="slide" inlist="" rel="schema:hasPart" resource="#browser-interface">
       <h2 property="schema:name">Query through your browser</h2>
       <p class="indent">Running Comunica engine in the browser</p>
-      <h3 class="indent"><a href="http://query.linkeddatafragments.org/">http://query.linkeddatafragments.org/</a></h3>
+      <ul>
+        <li><em class="indent">E.g. query Solid pods:</em></li>
+        <li><h3 class="indent"><a href="http://query.linkeddatafragments.org/#datasources=https%3A%2F%2Fjulianrojas.solid.community%2Fprofile%2Fcard%23me&query=PREFIX%20schema%3A%20%3Chttp%3A%2F%2Fschema.org%2F%3E%0APREFIX%20vcard%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2F2006%2Fvcard%2Fns%23%3E%0A%0ASELECT%20%3Fname%20%3Femail%20WHERE%20%7B%20%0A%20%20%3Fs%20a%20schema%3APerson%3B%0A%20%20%09%20vcard%3Afn%20%3Fname%3B%0A%20%20%20%20%20vcard%3AhasEmail%20%3Fe.%0A%20%20%3Fe%20vcard%3Avalue%20%3Femail.%0A%7D" target="_blank">http://query.linkeddatafragments.org/</a></h3></li>
+      </ul>
       <p class="indent">Host custom engines yourself: <a href="https://github.com/comunica/jQuery-Widget.js/">https://github.com/comunica/jQuery-Widget.js/</a></p>
     </section>
 
