@@ -180,7 +180,6 @@
       <p class="indent"><a href="https://componentsjs.readthedocs.io/en/latest/">Components.js</a>: a semantic dependency injection framework.</p>
       <p class="indent">Configuration files declare and parameterize actors, mediators and buses.</p>
       <p class="indent">Links all the building blocks together, without having to do this in the code!</p>
-      <p class="next indent"><em>This will be covered more in-depth in the next presentation.</em></p>
     </section>
 
     <section id="index-c" class="slide index">
@@ -214,6 +213,10 @@
           <span style="color:gray; float:right">GraphQL is translated to SPARQL algebra</span>
         </li>
         <li>
+            LDflex queries
+            <span style="color:gray; float:right">LDflex path expressions are translated to SPARQL queries</span>
+          </li>
+        <li>
           Federated querying of heterogeneous sources:
           <span style="color:gray; float:right">Any combination of sources</span>
         </li>
@@ -226,6 +229,17 @@
             <li>RDFJS Sources</li>
           </ul>
         </li>
+      </ul>
+    </section>
+
+    <section id="query-rdf-graphs" class="slide" inlist="" rel="schema:hasPart" resource="#query-rdf-graphs">
+      <h2 property="schema:name">Query RDF Graphs</h2>
+      <p class="indent">Through Comunica is possible to query local and remote RDF graphs using query languages of different levels of expressivity:</p>
+      <ul>
+        <li style="margin-left: 3em; font-size: 20px;"><strong>LDflex:</strong> A JavaScript-based domain-specific language for simple writing path-based expressions</li>
+        <li style="margin-left: 3em; font-size: 20px;"><strong>GraphQL-LD:</strong> An extension of the GraphQL query language for querying Linked Data</li>
+        <li style="margin-left: 3em; font-size: 20px;"><strong>SPARQL:</strong> The standard for querying RDF as recommended by the W3C</li>
+        <li style="text-align: center; margin-top: 45px;"><img src="img/queryexpressivitycomplexity.svg" style="max-width:100%"></li>
       </ul>
     </section>
 
